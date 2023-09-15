@@ -1,0 +1,260 @@
+body {
+  background: linear-gradient(rgb(16, 16, 16), white);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  width: 650px;
+  height: auto;
+  background: #fff;
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.register,
+.login {
+  flex: 1;
+}
+.register {
+  padding: 40px;
+  position: relative;
+}
+
+.register h3 {
+  color: #797979;
+  margin-bottom: 30px;
+}
+
+.register input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #a8a8a8;
+  color: #333;
+}
+
+.register .submit {
+  width: auto;
+  padding: 10px;
+  background: #120c06;
+  color: #fff;
+  font-size: 12px;
+  box-shadow: 3px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.login {
+  background-image: linear-gradient(to bottom right, #101515, #dce4df);
+  padding: 40px;
+}
+
+.login h3 {
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.login button i {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.login button {
+  width: 100%;
+  margin: 15px 0px;
+  padding: 10px;
+  box-shadow: 3px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+}
+
+.login .fb {
+  background: #3b5999;
+  border-style: none;
+  color: #fff;
+}
+.login .tw {
+  background: #55acef;
+  border-style: none;
+  color: #fff;
+}
+.login.correo {
+  background: #33d4ce;
+  border-style: none;
+  color: #fff;
+}
+
+
+
+
+
+/* Definición del estilo para el fondo del documento HTML */
+body {
+  /* Aplicación de un fondo degradado desde un tono oscuro hacia blanco */
+  background: linear-gradient(from rgb(16, 16, 16) to white);
+}
+
+/* Establecimiento del estilo para el contenedor principal */
+.container {
+  /* El contenedor ocupa todo el ancho y alto visible del viewport (100% de ancho y alto) */
+  width: 100%;
+  height: 100vh;
+  /* Configuración de un espaciado interior de 10 píxeles */
+  padding: 10px;
+  /* Alineación de los elementos internos al centro tanto horizontal como verticalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Definición del estilo para el contenedor de inicio de sesión */
+.login-container {
+  /* El contenedor se muestra como una fila horizontal de elementos */
+  display: flex;
+  /* Establecimiento de un ancho de 650 píxeles */
+  width: 650px;
+  /* Ajuste automático de la altura según su contenido */
+  height: auto;
+  /* Aplicación de un fondo blanco */
+  background: #fff;
+  /* Generación de una sombra suave en la parte inferior y derecha */
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los elementos "registro" e "inicio de sesión" en el contenedor */
+.register, .login {
+  /* Ambos ocupan el mismo espacio dentro del contenedor */
+  flex: 1;
+}
+
+/* Estilos para la sección de registro */
+.register {
+  /* Definición de un espaciado interior de 40 píxeles */
+  padding: 40px;
+  /* Permite la posición relativa para los elementos hijos posicionados absolutamente */
+  position: relative;
+}
+
+/* Estilos para el encabezado en la sección de registro */
+.register h3 {
+  /* Configuración del color del texto como gris */
+  color: #797979;
+  /* Establecimiento de un margen inferior de 30 píxeles */
+  margin-bottom: 30px;
+}
+
+/* Estilos para los campos de entrada de texto en la sección de registro */
+.register input {
+  /* Se extienden para ocupar todo el ancho disponible */
+  width: 100%;
+  /* Definición de un espaciado interior de 5 píxeles */
+  padding: 5px;
+  /* Establecimiento del tamaño de fuente en 16 píxeles */
+  font-size: 16px;
+  /* Configuración de un margen inferior de 25 píxeles */
+  margin-bottom: 25px;
+  /* Creación de un borde inferior de 1 píxel sólido de color gris */
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #a8a8a8;
+  /* Definición del color del texto como gris oscuro */
+  color: #333;
+}
+
+/* Estilos para el botón de envío en la sección de registro */
+.register .submit {
+  /* Establecimiento del ancho automáticamente según el contenido */
+  width: auto;
+  /* Configuración de un espaciado interior de 10 píxeles */
+  padding: 10px;
+  /* Aplicación de un fondo de color oscuro */
+  background: #120c06;
+  /* Establecimiento del color de texto como blanco */
+  color: #fff;
+  /* Generación de una sombra en el lado derecho del botón */
+  box-shadow: 3px 0 rgba(0, 0, 0, 0.2);
+  /* Cambio del cursor a una mano al pasar el ratón sobre él */
+  cursor: pointer;
+}
+
+/* Estilos para la sección de inicio de sesión */
+.login {
+  /* Creación de un fondo degradado de colores oscuros de arriba abajo */
+  background-image: linear-gradient(to bottom right, #101515, #dce4df);
+  /* Definición de un espaciado interior de 40 píxeles */
+  padding: 40px;
+}
+
+/* Estilos para el encabezado en la sección de inicio de sesión */
+.login h3 {
+  /* Configuración del color del texto como blanco */
+  color: #fff;
+  /* Establecimiento de un margen inferior de 45 píxeles */
+  margin-bottom: 45px;
+}
+
+/* Estilos para el ícono en el botón de inicio de sesión */
+.login button i {
+  /* Colocación en posición absoluta en la esquina superior izquierda */
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+/* Estilos para los botones en la sección de inicio de sesión */
+.login button {
+  /* Se extienden para ocupar todo el ancho disponible */
+  width: 100%;
+  /* Configuración de márgenes superior e inferior a 15 píxeles y 0 píxeles respectivamente */
+  margin: 15px 0px;
+  /* Definición de un espaciado interior de 10 píxeles */
+  padding: 10px;
+  /* Generación de una sombra en el lado derecho del botón */
+  box-shadow: 3px 0 rgba(0, 0, 0, 0.2);
+  /* Cambio del cursor a una mano al pasar el ratón sobre él */
+  cursor: pointer;
+  /* Permite la posición relativa para elementos hijos posicionados absolutamente */
+  position: relative;
+}
+
+/* Estilos para el botón de inicio de sesión con Facebook */
+.login .fb {
+  /* Configuración del fondo como azul de Facebook */
+  background: #3b5999;
+  /* Eliminación de cualquier estilo de borde */
+  border-style: none;
+  /* Definición del color de texto como blanco */
+  color: #fff;
+}
+
+/* Estilos para el botón de inicio de sesión con Twitter */
+.login .tw {
+  /* Configuración del fondo como azul de Twitter */
+  background: #55acef;
+  /* Eliminación de cualquier estilo de borde */
+  border-style: none;
+  /* Definición del color de texto como blanco */
+  color: #fff;
+}
+
+/* Estilos para el botón de inicio de sesión con correo electrónico */
+.login.correo {
+  /* Configuración del fondo como turquesa */
+  background: #33d4ce;
+  /* Eliminación de cualquier estilo de borde */
+  border-style: none;
+  /* Definición del color de texto como blanco */
+  color: #fff;
+}
